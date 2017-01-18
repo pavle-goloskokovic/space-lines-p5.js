@@ -1,0 +1,215 @@
+/*======================
+ HTML elements style
+======================*/
+
+html {
+    margin-bottom: 1px;
+    min-height: 100%;
+}
+h1, h2, h3, h4, h5, h6, pre, body, p, div {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #111;
+    font-family:Georgia,"Nimbus Roman No9 L",serif;
+    font-size:14px;
+    font-style:italic;
+    font-weight:normal;
+    color:#aaa;
+}
+
+h1 {
+    font-size:40px;
+    font-style:italic;
+    font-weight:normal;
+    margin: 30px auto;
+    text-align:center;
+    color:#fff;
+    text-shadow:#666 2px 2px 1px ;
+    text-decoration:none;
+}
+
+h2{
+    color:#fff;
+    font-style:italic;
+    font-weight:normal;
+    text-shadow:#666 1px 1px 1px ;
+}
+
+a{
+    color:#fff;
+}
+
+img {
+    border: 0;
+    vertical-align: bottom;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+td {
+    text-align: left;
+    font-weight: normal;
+}
+
+/*======================
+ Shared pages style
+======================*/
+
+#heading a{
+    text-decoration:none;
+}
+
+#content{
+    margin:auto;
+    width: 500px;
+}
+
+#footer{
+    padding:20px;
+    text-align:center;
+    font-size:10px;
+    color:#555;
+}
+
+/*======================
+ Index page style
+======================*/
+
+#headline{
+    margin: 10px auto;
+    width: 80%;
+    font-size: 12px;
+    text-align: center;
+}
+
+#processing_container{
+    margin:auto;
+    padding: 30px 0 0;
+    text-align:center;
+    border-top:#333 double 3px;
+    border-bottom:#333 double 3px;
+}
+
+#thumb{
+    float:left;
+    margin: 0 10px;
+}
+
+#info{
+    border-bottom: #333 double 3px;
+}
+
+#uploader{
+    width: 50%;
+    float: left;
+    padding:30px 0 40px;
+}
+
+#uploader-name {
+    color:#fff;
+    float: left;
+    max-width: 180px;
+    word-wrap: break-word;
+}
+
+#status-wrapper, #social{
+    margin: 20px 0 30px;
+}
+
+#upload{
+    float:right;
+    padding:0 10px;
+    margin-top: 80px;
+}
+
+#contact{
+    padding:20px 10px;
+    color:#999;
+    border-bottom:#333 double 3px;
+}
+
+#mail{
+    height: 14px;
+    width: 177px;
+    background-image: url("email.gif");
+    display: inline-block;
+    margin-bottom: -3px;
+}
+
+/*==================
+ Upload page style
+ ===================*/
+
+#form, #thankYou, #error {
+    padding: 30px 0 30px 100px;
+    border-top:#333 double 3px;
+    border-bottom:#333 double 3px;
+}
+
+.form_field, .form_required {
+    font-weight: normal;
+}
+
+.form_required {
+    color:#c00;
+    margin-right:8px;
+}
+
+.text_box {
+    width:300px;
+}
+
+.description {
+    font-size:11px;
+    color:#FFF;
+}
+
+.alert {
+    font-size:11px;
+    color:#d00;
+}
+
+/*==================
+ Social plugins style
+ ===================*/
+
+.twitter-share-button {
+    width: 85px !important;
+}
+
+#___plusone_0{
+    margin-left: 5px !important;
+    width: 60px !important;
+}
+
+.fb_iframe_widget {
+    top: -4px;
+}
+
+/*==================
+ Clearfix style
+ ===================*/
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
